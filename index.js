@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 require('dotenv').config(); 
 const { prefix, token, } = require('./config.json');
-const client = new Discord.Client();
+const client = new Discord.Client(928142475737063444);
 const moment = require('moment');
 
 // Checklist to turn on:
